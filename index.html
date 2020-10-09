@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Aarhus Øl-Festival 2020</title>
+	
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+	<link rel="icon" type="image/x-icon" href="images/beer.png"/>
+</head>
+
+<body>
+	<header></header>
+	
+	<main>
+		<!-- Video source -->
+        <video id="video" muted loop>
+            <source src="media/video.mp4" type="video/mp4">
+        </video>
+        
+        <!-- Infoboks -->
+        <div class="container">
+            <h1>Aarhus Øl-Festival 2020</h1>
+            <h4>Lørdag d 17 oktober kl 12:00</h4>
+            <!-- CSS animation -->
+            <img src="images/beer.png" alt="beer" class="beer">
+            <p><span>Aarhus Øl-Festival byder på en verden af smags-oplevelser for alle øl-entusiaster!</span><br><br> Kan du lide en god øl skal du bestemt til Aarhus Øl-Festival, hvor du kan smage nogle af de mange specialøl fra både helt nye leverandører og også fra nogle, som har arbejdet med det i mange år og finpudset både opskrift og smag.</p>
+        </div>
+        
+        <!-- Sektionskifte -->
+        <div class="beer-2">
+        <img src="images/gif.gif" alt="gif" class="gif">
+        </div>
+        
+        <!-- Kort -->
+        <div class="beliggenhed">
+        <h2>Hvor befinder vi os?</h2>
+        <p>Med stor succes fra sidste år, befinder vi os endnu engang i Ridehuset, Aarhus.</p>
+        </div>
+        <div id="map"></div>
+        
+        <!-- Vejret -->
+        <div id="result">
+            <h3>Vejret i Aarhus</h3>
+        </div>
+        
+        <!-- Parallax -->
+        <div class="image"></div>
+        <section class="content">
+            <h2>Vi tager hensyn til corona</h2>
+            <p>Husk følgende når du deltager i arrangementet:<br>
+            - Passende afstand <br>
+            - Anvende håndsprit <br>
+            - En fornuftig opførsel
+            <br><br>
+            Husk også regeringens retningslinjer:<br>
+            - Vask dine hænder tit eller brug håndsprit<br>
+            - Host eller nys i sit ærme - ikke dine hænder<br>
+            - Undgå håndtryk, kindkys og kram - begræns den fysiske kontakt<br>
+            - Vær opmærksom på rengøring - både hjemme og på arbejdspladsen<br>
+            - Hvis du er ældre eller kronisk syg - undgå gerne større forsamlinger</p>
+            
+        </section>
+        
+	</main>
+	
+	<footer></footer>
+	
+	<!-- jQuery library -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	
+	<!-- JavaScript -->
+	<script src="js/js.js"></script>
+	
+	<!-- Mapbox -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+</body>
+
+</html>

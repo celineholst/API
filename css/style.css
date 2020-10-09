@@ -1,0 +1,156 @@
+/**
+ * file: css/style.css
+ **/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Frontpage video */
+video {
+    object-fit: fill;
+    height: 105vh;
+    width: 90%;
+    position: relative;
+    top: -150px;
+    left: 70px;
+}
+
+/* CSS animation */
+.beer {
+    width: 100px;
+    animation: 2s infinite;
+    animation-name: move;
+    position: relative;
+    left: 450px;
+}
+
+@keyframes move {
+    50% {
+        transform: rotate(30deg);
+    }
+}
+
+/* Infoboks */
+.container {
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    position: relative;
+    top: -250px;
+    z-index: 1;
+}
+
+h1 {
+    padding-top: 30px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+span {
+    font-style: italic;
+}
+
+.container p {
+    font-family: Verdana, Geneva, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 1.5;
+    margin-top: -80px;
+}
+
+/* Sektionskifte */
+.beer-2 {
+    position: absolute;
+    top: 700px;
+    left: 450px;
+    z-index: 100;
+}
+
+/* Kort */
+h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.beliggenhed p {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+}
+
+#map {
+    width: 80%;
+    height: 350px;
+    position: relative;
+    left: 150px;
+}
+
+#marker {
+    background-image: url(../images/ridehuset.jpg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+/* Vejret */
+h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: #dfd4bb;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 138px;
+     margin-top: 50px;
+}
+
+.weatherInfo {
+    background-color: #dfd4bb;
+    margin-left: 150px;
+    margin-right: 138px;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+}
+
+.weatherInfo img {
+    width: 75px;
+}
+
+/* Parallax */
+section p {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.image {
+    background: url('https://videnskab.dk/files/other_media/corona_virus_novo_nordisk2.jpg') no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+    margin-top: 100px;
+}
